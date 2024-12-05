@@ -1,76 +1,30 @@
-# Atividade de Núcleo
+# Jogo da Forca - Desafio
 
-- **Orientadores:** Turma  [Fábio Santos Matos de Oliveira](https://gitlab.com/Fabio-Matos1303) | Turma  [Djair Maykon](https://gitlab.com/djairmaykon) | Turma  [Márcio R. Júnior](https://gitlab.com/marciojunior2109) 
-- **Coorientadores gerais:** [Raissa Luna](https://gitlab.com/raissalunana) | [Lucas Júlio](https://gitlab.com/LucasJulio)
+## Descrição
 
+Este é um **Jogo da Forca** desenvolvido utilizando **TypeScript** e **React**, conforme os requisitos do desafio. O jogo permite que um jogador participe de partidas, mostrando a quantidade de partidas ganhas e perdidas. A interface é totalmente **responsiva**, adaptando-se a diferentes tamanhos de tela, desde dispositivos móveis até desktops.
 
-## Descrição da atividade
+## Funcionalidades
 
-Nessa semana a atividade tem como objetivo a construção de um jogo da velha utilizando TypeScript e React. 
+- **Jogo com um jogador**: O jogador tenta adivinhar a palavra, recebendo feedback sobre as tentativas feitas.
+- **Placar de partidas**: O jogo mantém o controle de quantas partidas foram ganhas e quantas foram perdidas.
+- **Responsividade**: O layout foi projetado para ser responsivo e se adaptar a diferentes tamanhos de tela (móvel, tablet e desktop).
+- **Histórico de partidas**: É possível visualizar o histórico de partidas anteriores, com os detalhes de vitória ou derrota.
+  
+## Tecnologias Utilizadas
 
+- **TypeScript**: Para garantir um código mais robusto e com tipagem forte.
+- **React**: Biblioteca para construção de interfaces interativas.
+- **CSS**: Estilização do layout, com foco em responsividade e usabilidade.
 
-### Tarefa
+## Funcionalidades Implementadas
 
-Com base no design indicado no link abaixo desenvolvam um jogo da forca que atenda os seguintes requisitos: 
+1. **Jogo da Forca**: O jogador tem que adivinhar uma palavra, com tentativas limitadas. 
+2. **Placar de Jogo**: O jogo exibe a quantidade de partidas ganhas e perdidas, para manter o controle de desempenho.
+3. **Responsividade**: O layout se adapta a dispositivos móveis, tablets e desktops, garantindo que o jogo seja jogável em qualquer dispositivo.
+4. **Histórico de Partidas**: O histórico das partidas anteriores é mantido, permitindo que o jogador visualize seus desempenhos passados.
 
+## Personalização
 
-### Requisitos Obrigatórios:
-
-- Conseguir jogar o jogo da forca com um jogador
-- Placar com a quantidade de partidas perdidas e ganhas
-- Utilizar Typescript e React (pode usar vite, se quiser)
-- Responsividade
-
-### Requisitos Opcionais:
-
-- Fazer um histórico de partidas
-- Conseguir jogar com dois jogadores
-- Os jogadores devem revezar a vez durante o jogo
-
-
-### Design
-
-O link do design a ser seguido nesta atividade  (se desejarem): 
-- https://www.figma.com/file/ek5uhIz2fkVmicl3Nj5gSR/Alura-Challenge---Desafio-2---L%C3%B3gica?type=design&node-id=10-158&mode=design&t=gucUR3xO8ANwaHP7-0
-
-
-## Materiais de apoio
-
-
-### Responsividade
-
-- https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Responsive_Design
-- https://kinsta.com/pt/blog/design-responsivo-web/
-- https://www.youtube.com/watch?v=NQTU9hEStD8
-- https://www.youtube.com/watch?v=c7UoYycwTsQ
-- https://www.youtube.com/watch?v=d-fUTdDgHt8
-
-
-### JavaScript
-
-- https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
-- https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/JavaScript_basics
-- https://www.freecodecamp.org/news/how-to-learn-javascript-faster/
-- https://www.w3schools.com/js/DEFAULT.asp
-- https://www.devmedia.com.br/javascript-tutorial/37257
-- https://www.youtube.com/watch?v=W6NZfCO5SIk
-- https://www.youtube.com/watch?v=PkZNo7MFNFg
-- https://www.youtube.com/watch?v=BXqUH86F-kA
-
-### React
-
-- https://react.dev/learn
-- https://www.w3schools.com/react/react_getstarted.asp
-- https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started
-- https://www.freecodecamp.org/news/get-started-with-react-for-beginners/
-- https://www.youtube.com/watch?v=pDbcC-xSat4
-- https://www.youtube.com/watch?v=bMknfKXIFA8
-
-### TypeScript
-
-- https://www.typescriptlang.org/docs/
-- https://blog.geekhunter.com.br/introducao-a-typescript/
-- https://www.devmedia.com.br/introducao-ao-typescript/36729
-- https://dev.to/cleiver/iniciando-um-novo-projeto-react-e-typescript-3cip
-- **https://www.youtube.com/watch?v=-ONUyenGnWw**
-- **https://www.youtube.com/watch?v=ewppbL5Iz54**
+- **Adicionar novas palavras:** No arquivo src/words.ts, você pode adicionar mais palavras para serem adivinhadas durante o jogo.
+- **Customizar o estilo:** Para personalizar o layout, edite os arquivos CSS localizados em src/styles.
