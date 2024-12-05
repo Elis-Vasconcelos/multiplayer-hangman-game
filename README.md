@@ -33,12 +33,13 @@ Este é um **Jogo da Forca** desenvolvido utilizando **TypeScript** e **React**,
 
 ### Início
 
-![home](assets/inicio.png)
+![home](assets/inicio.png?raw=true)
 
 ### Adicionar palavra
 
-![add-word](assets/new-word.png)
+![add-word](assets/new-word.png?raw=true)
 
 ### Jogo na prática
 
-![game](assets/hangman-example.png)
+![game](assets/hangman-example.png?raw=true)
+
