@@ -28,3 +28,17 @@ Este é um **Jogo da Forca** desenvolvido utilizando **TypeScript** e **React**,
 
 - **Adicionar novas palavras:** No arquivo src/words.ts, você pode adicionar mais palavras para serem adivinhadas durante o jogo.
 - **Customizar o estilo:** Para personalizar o layout, edite os arquivos CSS localizados em src/styles.
+
+## Aplicação em funcionamento
+
+### Início
+
+![home](assets\inicio.png)
+
+### Adicionar palavra
+
+![add-word](assets\new-word.png)
+
+### Jogo na prática
+
+![game](assets\hangman-example.png)
